@@ -9,18 +9,18 @@ Example
 =======
 
 Requires OS X and Python. On the terminal, enter:
-------
+
      python checknetwork.py
     
 Output if there is internet connection:
-    Testing access to www.google.com
-    Success!
+     Testing access to www.google.com
+     Success!
 
 And it also plays a system beep. Go surfing!
 
 Output if there is no internet connection:
-    Testing access to www.google.com
-    Failed, will try again in 2 minutes     
+     Testing access to www.google.com
+     Failed, will try again in 2 minutes     
 
 Which it will keep on doing until there it can access google.com
 

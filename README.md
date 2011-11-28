@@ -24,7 +24,7 @@ Output if there is no internet connection:
      Testing access to www.google.com
      Failed, will try again in 2 minutes     
 
-Which it will keep on doing until there it can access google.com
+Which it will keep on doing until it can access google.com.
 
 Install
 =======
@@ -38,4 +38,4 @@ Now you have a folder called checknetwork.py and in that the checknetwork.py scr
 License
 =======
 
-MIT/X11
+MIT

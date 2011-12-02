@@ -8,7 +8,7 @@ It was created as a result of frustration with my ISP (Vodafone Ghana) and their
 Example
 =======
 
-Requires OS X, Python and gevent. On the terminal, enter:
+On the terminal, enter:
 
     python checknetwork.py
     
@@ -28,6 +28,13 @@ Which it will keep on doing until it can access google.com or wikipedia.org
 
 Install
 =======
+
+Requires OS X, Python and gevent.
+
+To install gevent:
+
+    brew install libevent
+    sudo pip install gevent
 
 On the terminal, enter:
 

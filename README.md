@@ -8,23 +8,23 @@ It was created as a result of frustration with my ISP (Vodafone Ghana) and their
 Example
 =======
 
-Requires OS X and Python. On the terminal, enter:
+Requires OS X, Python and gevent. On the terminal, enter:
 
      python checknetwork.py
     
 Output if there is internet connection:
 
-     Testing access to www.google.com
+     Testing web access
      Success!
 
-And it also plays a system beep. Go surfing!
+And it also plays a system beep and then exits. Go surfing!
 
 Output if there is no internet connection:
 
-     Testing access to www.google.com
-     Failed, will try again in 2 minutes     
+     Testing web access
+     Failed, will try again in 30 seconds
 
-Which it will keep on doing until it can access google.com.
+Which it will keep on doing until it can access google.com or wikipedia.org
 
 Install
 =======
